@@ -1,0 +1,41 @@
+[Summon Jade Dagger - Press START]
+DD000000 00000008
+D3000000 30000000
+20CFE190 00000001
+D3000000 08000000
+205F599C 00000000
+D2000000 00000000
+DD000000 00000001
+D3000000 30000000
+00CFE194 465AFBAC
+D2000000 00000000
+{Press A Button to turn off the code. This is to avoid crashes when you move to another area. Also, turn of the code when saving/loading}
+
+[Inf. Estoma v3- Press START]
+DD000000 00000008
+D3000000 30000000
+20CFDEE8 00000001
+D2000000 00000000
+DD000000 00000001
+D3000000 30000000
+20CFDEE8 00000000
+20CFDEEC 00000000
+D2000000 00000000
+{Same as Summon Jade Dagger}
+
+[Custom Camera Angle: Almost Default]
+D3000000 30000000
+001310A0 00000001
+00CFD110 01600500
+D2000000 00000000
+{This changes slightly the default camera angle. Activate the code, save the game. then close the game. After that, open the game again and you will see that the camera cheat effect is still there. No need to reapply every time, as long as you don't change the angle.}
+
+[Custom Camera Angle: Behind MC]
+D3000000 30000000
+001310A0 00000001
+00CFD110 01600900
+D2000000 00000000
+{This changes the shoulder camera angle, making it more like Resident Evil Revelations (you can now see the entire torso of the character). Activate the code, save the game. then close the game. After that, open the game again and you will see that the camera cheat effect is still there. No need to reapply every time, as long as you don't change the angle.}
+
+
+
