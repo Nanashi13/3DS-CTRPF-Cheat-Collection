@@ -243,7 +243,7 @@ D3000000 00000000
 005DAE10 00000F00
 D2000000 00000000
 
-[++Chicken Wiggle++]
+[++Chicken Wiggle - 00040000001D9300 - Atooi Collection]++]
 
 [Power-Up: Demo Hat]
 D3000000 00000000
