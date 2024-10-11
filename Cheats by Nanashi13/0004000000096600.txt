@@ -1,0 +1,312 @@
+[Infinite HP- Alucard]
+D3000000 15067F44
+B0000000 00000000
+D9000000 000009E4
+D6000000 000009E8
+D2000000 00000000
+
+[Infinite MP- Alucard]
+D3000000 15067F44
+B0000000 00000000
+D9000000 00000E1C
+D6000000 00000E20
+D2000000 00000000
+
+[Enemies Attacks Do No Damage]
+D3000000 00000000
+10363682 00000000
+D2000000 00000000
+{Some attacks, like HP stealing moves (Succubus, Magic Books, etc) and traps (Steam pipes) will do damage. But all the other attacks will have no effect on you, even Bosses.}
+
+[Enemies Attacks Do Damage]
+D3000000 00000000
+10363682 00003F80
+D2000000 00000000
+{This code is for cancel the effect of the code above.}
+
+[Infinte MP- All Characters]
+D3000000 00000000
+102F222A 0000EDC4
+D2000000 00000000
+{Works on all characters.}
+
+[No Infinte MP- All Characters]
+D3000000 00000000
+102F222A 0000ED84
+D2000000 00000000
+{This code is for cancel the effect of the code above.}
+
+[Infinte Hearts- All Characters]
+D3000000 00000000
+2034782F 00000041
+D2000000 00000000
+
+[No Infinte Hearts- All Characters]
+D3000000 00000000
+2034782F 0000003F
+D2000000 00000000
+
+[Slow Time- Alucard only]
+D3000000 00000000
+0053F980 3DCCCCCD
+D2000000 00000000
+{This will grant the Stopwatch effect permanently. (All the enemies go in slow motion, Alucard moves normally.}
+
+[Time Stop - Alucard only]
+D3000000 00000000
+0053F980 00000000
+D2000000 00000000
+-This will grant a Time Stop freezing enemies and traps (This is a mod of the Stopwatch effect so all the enemies and traps cannot move/activate and Alucard moves normally.}
+
+[Normal Time- Alucard only]
+D3000000 00000000
+0053F980 3F800000
+D2000000 00000000
+{This code is mainly for deactivate the Slow Time and the Time Stop codes. If you use the subweapon Stopwatch when this code is activated, the code will cancel the effect of the Stopwatch.}
+
+[Slow Time- Simon and Trevor]
+D3000000 15000000
+000425A0 3E99999A
+D2000000 00000000
+D3000000 15000000
+000425C0 3E99999A
+D2000000 00000000
+D3000000 00000000
+00145B50 40600000
+D2000000 00000000
+{This code will slow time for every thing on game, enemies and main character alike. So i combine the code with the speed code, so you can move normally but the enemies move slow. Something like the Time Alucard codes, but this code has a disadvantage: You can move and atack normally but when you jump, you will suffer the slowmotion. If you attack in the air while jumping, the slowmotion effect will be less noticiable.}
+
+[Slow Time - Simon and Trevor v2]
+D3000000 15000000
+000425A0 3F000000
+D2000000 00000000
+D3000000 15000000
+000425C0 3F000000
+D2000000 00000000
+D3000000 00000000
+00145B50 40000000
+D2000000 00000000
+{Same as above but better. Slightly less annoying when you jump. On the other hand, enemies are a little faster than with the old code.}
+
+[Normal Time- Simon and Trevor]
+D3000000 15000000
+000425A0 3F800000
+D2000000 00000000
+D3000000 15000000
+000425C0 3F800000
+D2000000 00000000
+D3000000 00000000
+00145B50 3F800000
+D2000000 00000000
+{This code is mainly for cancel the effect of the code above.}
+
+[Use Sub Weapons before unlock]
+D3000000 00000000
+203128BC E3A00001
+D2000000 00000000
+{This will also allow Simon to use his whip as the combat cross, meaning he can attach to ceilings and stuff.}
+
+[Don't Use Sub Weapons before unlock]
+D3000000 00000000
+003128BC E3A00000
+D2000000 00000000
+{If you enabled the code on Chapter 2, you can't access the Hourglass Room to get the subweapon. Use this code to be able to get it. If you already are in said area, go back to a previous area, and re enter the room again.}
+
+[Game Speed x 1]
+D3000000 00000000
+00145B50 3F800000
+D2000000 00000000
+
+[Game Speed x 1.25]
+D3000000 00000000
+00145B50 3FA00000
+D2000000 00000000
+
+[Game Speed x 1.50]
+D3000000 00000000
+00145B50 3FC00000
+D2000000 00000000
+
+[Game Speed x 2]
+D3000000 00000000
+00145B50 40000000
+D2000000 00000000
+
+[Game Speed x 3]
+D3000000 00000000
+00145B50 40400000
+D2000000 00000000
+
+[Game Speed x 3.5]
+D3000000 00000000
+00145B50 40433333
+D2000000 00000000
+
+[Game Speed x 4]
+D3000000 00000000
+00145B50 40800000
+D2000000 00000000
+
+[Game Speed x 0.50]
+D3000000 00000000
+00145B50 3D4CCCCD
+D2000000 00000000
+
+[Game Speed x 0.25]
+D3000000 00000000
+00145B50 3CCCCCCD
+D2000000 00000000
+
+[Character Speed x 1]
+D3000000 00000000
+10145B52 00003F80
+D2000000 00000000
+
+[Character Speed x 1.25]
+D3000000 00000000
+10145B52 00003FA0
+D2000000 00000000
+
+[Character Speed x 1.50]
+D3000000 00000000
+10145B52 00003FC0
+D2000000 00000000
+
+[Character Speed x 2]
+D3000000 00000000
+10145B52 00004000
+D2000000 00000000
+
+[Character Speed x 3]
+D3000000 00000000
+10145B52 00004040
+D2000000 00000000
+
+[Activate Sub Weapon Before Obtaining it]
+D3000000 00000000
+203128BC E3A00001
+
+[Deactivate Sub Weapon]
+D3000000 00000000
+203128BC E3A00000
+
+[Refill Life Fountain - Press DOWN]
+DD000000 00000080
+D3000000 14017AEC
+60000000 00000000
+B0000000 00000000
+DC000000 FFFFFAC4
+00000000 00000001
+D2000000 00000000
+
+[Slow Time - Simon and Trevor]
+D3000000 15000000
+000425A0 3F000000
+D2000000 00000000
+D3000000 15000000
+000425C0 3F000000
+D2000000 00000000
+D3000000 00000000
+00145B50 40000000
+D2000000 00000000
+
+[Normal Time- Simon and Trevor]
+D3000000 15000000
+000425A0 3F800000
+D2000000 00000000
+D3000000 15000000
+000425C0 3F800000
+D2000000 00000000
+D3000000 00000000
+00145B50 3F800000
+D2000000 00000000
+
+[No Moonjump]
+D3000000 00000000
+002089F4 3F800000
+D2000000 00000000
+
+[Moonjump]
+D3000000 00000000
+002089F4 3F000000
+D2000000 00000000
+
+[Normal Jump]
+D3000000 00000000
+00208A00 42960000
+D2000000 00000000
+
+[High Jump]
+D3000000 00000000
+00208A00 43000000
+D2000000 00000000
+
+[Super Jump]
+D3000000 00000000
+00208A00 43200000
+D2000000 00000000
+
+[No Mid Air Jump]
+D3000000 00000000
+002089E0 EDC48A2D
+D2000000 00000000
+
+[Mid Air Jump - Press B]
+D3000000 00000000
+002089E0 EDC48A2E
+D2000000 00000000
+
+[Normal Jump v2]
+D3000000 00000000
+002089C4 EDD41A96
+D2000000 00000000
+
+[High Jump v2]
+D3000000 00000000
+002089C4 EDD41A95
+D2000000 00000000
+
+[Higher Jump v2]
+D3000000 00000000
+002089C4 EDD41A94
+D2000000 00000000
+
+[Room Brightness: Normal]
+D3000000 00000000
+00287A80 3F800000
+D2000000 00000000
+
+[Room Brightness: Lower]
+D3000000 00000000
+00287A80 3F000000
+D2000000 00000000
+
+[Movement Speed x1]
+D3000000 00000000
+002C8700 3F800000
+D2000000 00000000
+
+[Movement Speed x2]
+D3000000 00000000
+002C8700 40000000
+D2000000 00000000
+
+[Walk Through Wall-ish - Press R]
+D3000000 00000000
+10145B52 00003F84
+D2000000 00000000
+DD000000 00000100
+D3000000 00000000
+10145B52 000040F0
+D2000000 00000000
+{It's not a truly wtw code, is just the chr.speed code, but with this speed value you'r able to walk through many objects and barriers}
+
+[Walk Through Wall-ish v2 - Press R]
+D3000000 00000000
+10145B52 00003F84
+D2000000 00000000
+DD000000 00000100
+D3000000 00000000
+10145B52 000041F0
+D2000000 00000000
+{It's not a truly wtw code, is just the chr.speed code, but with this speed value you'r able to walk through many objects and barriers}
