@@ -28,3 +28,6 @@
 * **Mutant Mudds: Super Challenge - 00040000001D9300 (Atooi Collection)**
 * **E.X. Troopers - 0004000000053700 (Japan, FAN TRANSLATORS INT. ENGLISH PATCH v1.0, 1.01 & 1.02)**
 * **Shantae and the Pirate's Curse - 00040000000C2900 (Digital version, 1.1 Update)**
+* **Skylanders: Spyro's Adventure - 0004000000036E00**
+* **Skylanders Swap Force - 00040000000E6500**
+* **Chicken Wiggle - 00040000001D9300 - Atooi Collection**
