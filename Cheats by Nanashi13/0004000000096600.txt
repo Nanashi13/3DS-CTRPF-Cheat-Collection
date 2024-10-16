@@ -271,12 +271,12 @@ D3000000 00000000
 002089C4 EDD41A94
 D2000000 00000000
 
-[Room Brightness: Normal]
+[Room Torch Brightness: Normal]
 D3000000 00000000
 00287A80 3F800000
 D2000000 00000000
 
-[Room Brightness: Lower]
+[Room Torch Brightness: Lower]
 D3000000 00000000
 00287A80 3F000000
 D2000000 00000000
@@ -310,3 +310,95 @@ D3000000 00000000
 10145B52 000041F0
 D2000000 00000000
 {It's not a truly wtw code, is just the chr.speed code, but with this speed value you'r able to walk through many objects and barriers}
+
+[Dificulty:Hardcore]
+D3000000 17000000
+006139F4 40400000
+006139F8 40000000
+006139FC 3DCCCCCD
+00613A00 43480000
+00613A04 40000000
+00613A08 00000004
+D2000000 00000000
+{This code let you change the difuculty without going to the settings menu}
+
+[Dificulty:Easy]
+D3000000 17000000
+006139F4 3F000000
+006139F8 3F400000
+006139FC 3E800000
+00613A00 43480000
+00613A04 3F400000
+00613A08 00000001
+D2000000 00000000
+{This code let you change the difuculty without going to the settings menu}
+
+[Normal Enemy Damage]
+D3000000 17000000
+006139F4 3F800000
+D2000000 00000000
+
+[Enemy's attack make Zero Damage]
+D3000000 17000000
+006139F4 00000000
+D2000000 00000000
+{The enemy attacks do zero damage, so it's like an Infinite HP cheat code. But actually, is a Enemy's attack multiplier, meaning that you can change the value to increase the enemy's attack , if you want more challenging combats}
+
+[Baby Mode]
+D3000000 17000000
+006139F4 3E000000
+D2000000 00000000
+{The enemies attacks makes almost no damage.}
+
+[Hell or Hell(ish)]
+D3000000 17000000
+006139F4 40A00000
+D2000000 00000000
+{This code is inspired by Devil May Cry 4 infamous difficulty mode. The enemy attacks do more damage than Hardcore difficulty, enemies can kill you with 3/2 (or even one) attacks}
+
+[True Hell or Hell]
+D3000000 17000000
+006139F4 4F800000
+D2000000 00000000
+{This code is inspired by Devil May Cry 4 infamous difficulty mode. The enemies will kill you with 1 hit}
+
+[Hell or Hell: Belnades Edition]
+D3000000 17000000
+006139F4 4F800000
+006139F8 00000000
+00613A04 00000000
+D2000000 00000000
+D2000000 00000000
+{As the code above, if you use this cheat, the enemies will kill you with 1 hit. But this one also adds 0 cost for you magical abilites. So you can use your spirits, magics and transformations to your heart content}
+
+[Normal Magic Cost]
+D3000000 17000000
+006139F8 3F800000
+00613A04 3F800000
+D2000000 00000000
+
+[Zero Magic Cost]
+D3000000 17000000
+006139F8 00000000
+00613A04 00000000
+D2000000 00000000
+{Using your magic powers doesn't drain your MP, like an Infinite MP cheat code. But actually, is a MP cost multiplier, so you can change the value to increase the magic cost of your powers, if you like a good challenge}
+
+[High Magic Cost]
+D3000000 17000000
+006139F8 40C00000
+00613A04 40C00000
+D2000000 00000000
+{Using you magic powers drain a lot more of the MP bar than normally would. Useful if you want to add more challenge to the game}
+
+[Subtitles ON]
+D3000000 17000000
+006139E8 00000002
+D2000000 00000000
+{You can turn on/off the subtitles on real time, like on scenes}
+
+[Subtitles OFF]
+D3000000 17000000
+006139E8 00000001
+D2000000 00000000
+{You can turn on/off the subtitles on real time, like on scenes}
