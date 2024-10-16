@@ -402,3 +402,15 @@ D3000000 17000000
 006139E8 00000001
 D2000000 00000000
 {You can turn on/off the subtitles on real time, like on scenes}
+
+[Grappling point]
+D3000000 00000000
+003128B4 C3A00001
+D2000000 00000000
+(This enables the grapple points, indicated by the blue light, even without the battle cross)
+
+[No Grappling point]
+D3000000 00000000
+003128B4 C3A00000
+D2000000 00000000
+(This disable the grapple points, indicated by the red light, even with the battle cross)
