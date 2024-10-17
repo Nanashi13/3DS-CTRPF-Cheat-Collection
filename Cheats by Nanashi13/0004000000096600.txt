@@ -182,14 +182,6 @@ D3000000 00000000
 10145B52 00004040
 D2000000 00000000
 
-[Activate Sub Weapon Before Obtaining it]
-D3000000 00000000
-203128BC E3A00001
-
-[Deactivate Sub Weapon]
-D3000000 00000000
-203128BC E3A00000
-
 [Refill Life Fountain - Press DOWN]
 DD000000 00000080
 D3000000 14017AEC
@@ -407,13 +399,13 @@ D2000000 00000000
 D3000000 00000000
 003128B4 C3A00001
 D2000000 00000000
-(This enables the grapple points, indicated by the blue light, even without the battle cross)
+{This enables the grapple points, indicated by the blue light, even without the battle cross}
 
 [No Grappling point]
 D3000000 00000000
 003128B4 C3A00000
 D2000000 00000000
-(This disable the grapple points, indicated by the red light, even with the battle cross)
+{This disable the grapple points, indicated by the red light, even with the battle cross}
 
 [Punch & Swirl No Damage]
 D3000000 00000000
@@ -460,3 +452,24 @@ B0000000 00000000
 00000C18 00000001
 D2000000 00000000
 
+[WIP- Float - Press R]
+D3000000 00000000
+001F412C BF800000
+D2000000 00000000
+DD000000 00000100
+D3000000 00000000
+001F412C 3F800000
+D2000000 00000000
+
+[WIP- Float - Press R - L v2]
+D3000000 00000000
+001F412C BF800000
+D2000000 00000000
+DD000000 00000100
+D3000000 00000000
+001F412C 3F800000
+D2000000 00000000
+DD000000 00000200
+D3000000 00000000
+001F412C CF800000
+D2000000 00000000
